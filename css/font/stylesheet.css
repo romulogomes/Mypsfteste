@@ -1,0 +1,15 @@
+
+
+
+
+@font-face {
+    font-family: 'walkway_semiboldregular';
+    src: url('walkway_semibold-webfont.eot');
+    src: url('walkway_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('walkway_semibold-webfont.woff') format('woff'),
+         url('walkway_semibold-webfont.ttf') format('truetype'),
+         url('walkway_semibold-webfont.svg#walkway_semiboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
