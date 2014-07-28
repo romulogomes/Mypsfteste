@@ -1,13 +1,38 @@
-#menualinhamento{
-
-}
-
+/*.ui-body-c,.ui-overlay-c{
+         background: url('../img/bg.png');
+        }
+*/
 #gridb{
 	width: 50%;
 }
 
+#titulo{
+	font-family: 'Lobster', cursive;
+	font-size:20px;
+}
+
+	
 #menu p{
 	font-size: 20px;
 	color: white;
-	font-family: "Walkway SemiBold", Arial, serif;
+}
+
+.meni{
+	font-family: 'walkway_semiboldregular', Arial, serif;
+
+}
+
+.meni p{
+	color: white;
+	margin-left:10%;
+	padding-top:28px; 
+	font-size:20px;
+}
+
+.icones{
+	padding: 17px;
+}
+
+.remedio {
+	font-family: arial;
 }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Meu PSF</title>
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link href="css/jquery.mobile-1.3.1.min.css" rel="stylesheet" />
+    <link href="css/meu.css" rel="stylesheet" rel="stylesheet" />
+    <link href="css/font/stylesheet.css" rel="stylesheet" rel="stylesheet"/>
+
+
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.mobile-1.3.2.min.js" type="text/javascript"></script>
+</head>
+<body>
+  <div data-role="page" data-control-title="Home" id="beck" style="background: url('./img/bg.png');">
+    
+    <div data-role="content">
+            <div id="logo_ita" style="text-align: center; margin-top:3%;">
+                <img src="img/logo-itapaje.png" alt="image" style="max-width: 180px; min-width: 90px; width:23%;">
+            </div>
+
+                     <div id="pegatodo" style="width: 100%;">
+                       <div id="menu" style="min-width:120px; width: 95%; max-width: 550px; margin: 0 auto;">
+                 
+                        <ul id="menu2" class="meni" data-role="listview" data-divider-theme="f" data-inset="true">
+                                
+                                <li data-theme="f" class="meni">
+                                    <a href="marcarconsulta.html" data-transition="slide">
+                                        <img src="img/icone.png" class="icones"><p>Consultas</p>
+                                    </a>
+                                </li>
+                                <li data-theme="f" class="meni">
+                                    <a href="buscarremedio.html" data-transition="slide">
+                                       <img src="img/remedios.png" class="icones"><p> Medicamentos</p>
+                                    </a>
+                                </li>
+                                <li data-theme="f" class="meni">
+                                    <a href="campanhas.html" data-transition="slide">
+                                        <img src="img/campanhas.png" class="icones"><p> Campanhas</p>
+                                    </a>
+                                </li>
+                                <li data-theme="f" class="meni">
+                                    <a href="calendario.html" data-transition="slide">
+                                        <img src="img/medicos.png" class="icones"><p> Especialistas </p>
+                                    </a>
+                                </li>
+                        </ul>
+
+                       </div>
+                    </div>
+        </div>
+  </div>   
+
+    <script type="text/javascript">
+            var alt = window.innerHeight;
+            document.getElementById('beck').style.height = alt+"px";
+        </script>
+    
+</body>
+</head>
+
+</html>
